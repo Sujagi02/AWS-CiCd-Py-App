@@ -3,6 +3,19 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
+  - source: /bg.jpg
+    destination: /var/www/html/
+  - source: /partly_cloudly.png
+    destination: /var/www/html/
+  - source: /rain_s_cloudly.png
+    destination: /var/www/html/
+  - source: /script.js
+    destination: /var/www/html/
+  - source: /style.css
+    destination: /var/www/html/
+  - source: /thunderstorms.png
+    destination: /var/www/html/
+
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
